@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav
+{
+    background-color: rgb(201, 208, 214);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+nav a, nav a:visited
+{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: 1.2em;
+}
+nav a:hover
+{
+    border-bottom: 1px solid white;
+}
+section#home
+{
+    margin-top: 20px;
+}
+section#home h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+section#home div.home
+{
+    display: flex;
+    flex-direction: row;
+}
+section#home div.home div.details
+{
+    width: 50%;
+    padding: 20px;
+}
+section#home div.details h2
+{
+    text-transform: uppercase;
+    padding: 15px 0;
+    font-size: 1.7em;
+}
+section#home div.details p
+{
+    line-height: 3;
+    font-size: 1.3em;
+}
+section#home div.details img
+{
+    width: 100%;
+    height: 100%;
+}
+section#skills h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    margin: 30px;
+}
+section#skills div.languages
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+section#skills div.languages > div.language
+{
+    border: 2px solid purple;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+    width: fit-content;
+    flex-basis: 27%;
+}
+section#skills div.language i
+{
+    font-size: 4em;
+}
+section#skills div.language p
+{
+    align-self: center;
+    padding: 10px;
+}
+section#projects
+{
+    border: 2px solid red;
+}
+section#projects h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+footer
+{
+    position: sticky;
+    background-color: rgb(201, 208, 214);
+    width: 100%;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px)
+{
+    nav
+    {
+        justify-content: center;   
+    }
+
+    section#home div.home, section#skills div.languages
+    {
+        flex-direction: column;
+    }
+    section#skills div.languages > div.language
+    {
+        margin: 0px auto;
+        width: 100%;
+    }
+}
