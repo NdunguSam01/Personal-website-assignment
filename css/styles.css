@@ -66,7 +66,7 @@ section#home div.details img
     width: 100%;
     height: 100%;
 }
-section#skills h1, section#projects h1
+section#skills h1, section#projects h1, section#contacts h1
 {
     text-align: center;
     text-transform: uppercase;
@@ -88,7 +88,6 @@ section#skills div.languages > div.language
     display: flex;
     padding: 30px;
     margin: 10px;
-    width: fit-content;
     flex-basis: 27%;
 }
 section#skills div.language i
@@ -105,13 +104,12 @@ section#projects div.projects
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    flex-basis: 25%;
 }
 section#projects div.projects > div.project
 {
     border: 2px solid rgb(26, 26, 26);
     border-radius: 10px;
-    flex-basis: 22%;
+    flex-basis: 23%;
     margin: 10px auto;
     text-align: center;
     padding: 20px;
@@ -134,7 +132,6 @@ section#projects div.projects > div.project a, section#projects div.projects > d
     max-height: 100%;
     padding: 14px 25px;
     border-radius: 10px;
-    margin-left: 2px;
     font-family: Georgia, serif;
     text-align: center;
     text-decoration: none;
@@ -143,6 +140,34 @@ section#projects div.projects > div.project a, section#projects div.projects > d
 section#projects div.projects > div.project a:hover
 {
     color: indigo;
+}
+div.contacts
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+div.contacts > div.contact
+{
+    border: 2px solid purple;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+    flex-basis: 20%;
+}
+div.contacts > div.contact i
+{
+    font-size: 1.7em;
+}
+div.contacts > div.contact a, div.contacts > div.contact a:visited
+{
+    font-size: 1.4em; 
+    color: inherit;
+    padding-left: 10px;
+    text-decoration: none;
+    align-self: center;
 }
 footer
 {
