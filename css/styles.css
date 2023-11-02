@@ -137,7 +137,7 @@ section#projects div.projects > div.project a, section#projects div.projects > d
     text-decoration: none;
     display: inline-block;
 }
-section#projects div.projects > div.project a:hover
+section#projects div.projects > div.project a:hover, div.contacts > div.contact a:hover
 {
     color: indigo;
 }
@@ -193,11 +193,11 @@ footer
     {
         text-align: center;
     }
-    section#home div.home, section#skills div.languages, section#projects div.projects
+    section#home div.home, section#skills div.languages, section#projects div.projects, div.contacts
     {
         flex-direction: column;
     }
-    section#skills div.languages > div.language, section#projects div.projects > div.project
+    section#skills div.languages > div.language, section#projects div.projects > div.project, div.contacts > div.contact
     {
         margin: 0px auto;
         width: 80%;
