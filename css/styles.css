@@ -83,12 +83,15 @@ div.languages
 }
 div.languages > div.language
 {
+    flex-basis: 27%;
+}
+div.languages > div.language, div.contacts > div.contact
+{
     border: 2px solid purple;
     border-radius: 10px;
     display: flex;
     padding: 30px;
     margin: 10px;
-    flex-basis: 27%;
 }
 div.language i
 {
@@ -150,11 +153,6 @@ div.contacts
 }
 div.contacts > div.contact
 {
-    border: 2px solid purple;
-    border-radius: 10px;
-    display: flex;
-    padding: 30px;
-    margin: 10px;
     flex-basis: 20%;
 }
 div.contacts > div.contact i
