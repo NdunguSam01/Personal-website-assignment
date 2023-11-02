@@ -109,7 +109,7 @@ section#projects div.projects
 }
 section#projects div.projects > div.project
 {
-    border: 2px solid purple;
+    border: 2px solid rgb(26, 26, 26);
     border-radius: 10px;
     flex-basis: 22%;
     margin: 10px auto;
