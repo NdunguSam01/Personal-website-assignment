@@ -40,28 +40,28 @@ section#home h1
     text-transform: uppercase;
     font-size: 2em;
 }
-section#home div.home
+div.home
 {
     display: flex;
     flex-direction: row;
 }
-section#home div.home div.details
+div.home div.details
 {
     width: 50%;
     padding: 20px;
 }
-section#home div.details h2
+div.details h2
 {
     text-transform: uppercase;
     padding: 15px 0;
     font-size: 1.7em;
 }
-section#home div.details p
+div.details p
 {
     line-height: 3;
     font-size: 1.3em;
 }
-section#home div.details img
+div.details img
 {
     width: 100%;
     height: 100%;
@@ -74,14 +74,14 @@ section#skills h1, section#projects h1, section#contacts h1
     margin-top: 70px;
     margin-bottom: 20px;
 }
-section#skills div.languages
+div.languages
 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
-section#skills div.languages > div.language
+div.languages > div.language
 {
     border: 2px solid purple;
     border-radius: 10px;
@@ -90,22 +90,22 @@ section#skills div.languages > div.language
     margin: 10px;
     flex-basis: 27%;
 }
-section#skills div.language i
+div.language i
 {
     font-size: 4em;
 }
-section#skills div.language p
+div.language p
 {
     align-self: center;
     padding: 10px;
 }
-section#projects div.projects
+div.projects
 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-section#projects div.projects > div.project
+div.projects > div.project
 {
     border: 2px solid rgb(26, 26, 26);
     border-radius: 10px;
@@ -114,17 +114,17 @@ section#projects div.projects > div.project
     text-align: center;
     padding: 20px;
 }
-section#projects div.projects > div.project i
+div.projects > div.project i
 {
     font-size: 3.5em;
     padding: 12px;
 }
-section#projects div.projects > div.project p
+div.projects > div.project p
 {
     font-size: 1.2em;
     line-height: 1.5;
 }
-section#projects div.projects > div.project a, section#projects div.projects > div.project a:visited
+div.projects > div.project a, div.projects > div.project a:visited
 {
     border: 2px solid white;
     color: inherit;
@@ -137,7 +137,7 @@ section#projects div.projects > div.project a, section#projects div.projects > d
     text-decoration: none;
     display: inline-block;
 }
-section#projects div.projects > div.project a:hover, div.contacts > div.contact a:hover
+div.projects > div.project a:hover, div.contacts > div.contact a:hover
 {
     color: indigo;
 }
@@ -185,19 +185,19 @@ footer
     {
         justify-content: center;   
     }
-    section#home div.home div.details
+    div.home div.details
     {
         width: 100%;
     }
-    section#home div.details h2
+    div.details h2
     {
         text-align: center;
     }
-    section#home div.home, section#skills div.languages, section#projects div.projects, div.contacts
+    div.home, div.languages, div.projects, div.contacts
     {
         flex-direction: column;
     }
-    section#skills div.languages > div.language, section#projects div.projects > div.project, div.contacts > div.contact
+    div.languages > div.language, div.projects > div.project, div.contacts > div.contact
     {
         margin: 0px auto;
         width: 80%;
